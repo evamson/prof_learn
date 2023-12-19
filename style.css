@@ -1,0 +1,54 @@
+body {
+  font: 14pt Arial;
+}
+
+div {
+  border: 3px solid red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.techprof, .naturprof, .gumprof {
+  padding: 0 15px;
+}
+
+.link a {
+  background-color: #EBEBEB;
+  margin: 0px 15px;
+  padding: 35px 55px;
+  border-radius: 15px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.link {
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.teacher {
+  background-color: #EBEBEB;
+  padding: 35px 55px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teacher .character {
+  width: 80%;
+}
+
+.teacher .photo {
+  width: 20%;
+  align-content: center;
+
+}
